@@ -1,7 +1,6 @@
-project('eigen3', 'cpp', version: '3.3.4')
+project('eigen3', 'cpp', version: '3.3.4', lincese: 'MPL2')
 
 eigen_all_files = files(
-'INSTALL',
 'signature_of_eigen3_matrix_library',
 'bench\basicbenchmark.h',
 'bench\benchmark_suite',
