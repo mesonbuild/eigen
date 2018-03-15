@@ -840,6 +840,6 @@ eigen_headers = files(
 
 install_headers(eigen_headers, subdir: 'eigen3')
 
-eigens_dep = declare_dependency(
+eigen_dep = declare_dependency(
   include_directories: include_directories('.')
 )
