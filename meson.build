@@ -1,4 +1,4 @@
-project('eigen3', 'cpp', version: '3.3.4', license: 'MPL2')
+project('eigen', 'cpp', version: '3.3.4', license: 'MPL2')
 
 eigen_all_files = files(
 'signature_of_eigen3_matrix_library',
@@ -840,6 +840,6 @@ eigen_headers = files(
 
 install_headers(eigen_headers, subdir: 'eigen3')
 
-eigen3_dep = declare_dependency(
+eigens_dep = declare_dependency(
   include_directories: include_directories('.')
 )
