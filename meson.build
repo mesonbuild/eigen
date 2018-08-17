@@ -118,7 +118,7 @@ eigen_headers = files(
 'Eigen/src/Core/arch/CUDA/PacketMathHalf.h',
 'Eigen/src/Core/arch/CUDA/TypeCasting.h',
 'Eigen/src/Core/arch/Default/Settings.h',
-'Eigen/src/core/arch/Default/ConjHelper.h',
+'Eigen/src/Core/arch/Default/ConjHelper.h',
 'Eigen/src/Core/arch/NEON/Complex.h',
 'Eigen/src/Core/arch/NEON/MathFunctions.h',
 'Eigen/src/Core/arch/NEON/PacketMath.h',
