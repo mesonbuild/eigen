@@ -481,6 +481,12 @@ install_headers(files('unsupported/Eigen/OpenGLSupport'), subdir: 'eigen3/unsupp
 install_headers(files('unsupported/Eigen/SpecialFunctions'), subdir: 'eigen3/unsupported/Eigen')
 install_headers(files('signature_of_eigen3_matrix_library'), subdir: 'eigen3')
 
+pkgc = import('pkgconfig')
+pkgc.generate(name: 'eigen3',
+    version: meson.project_version(),
+    description: 'A C++ template library for linear algebra: vectors, matrices, and related algorithms'
+)
+
 eigen_dep = declare_dependency(
     include_directories : include_directories('.'),
 )
