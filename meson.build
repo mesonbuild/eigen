@@ -1,4 +1,4 @@
-project('eigen', 'cpp', version : '3.3.7', license : 'MPL2')
+project('eigen', 'cpp', version : '3.3.8', license : 'MPL2')
 
 install_headers(files('Eigen/PardisoSupport'), subdir: 'eigen3/Eigen')
 install_headers(files('Eigen/MetisSupport'), subdir: 'eigen3/Eigen')
