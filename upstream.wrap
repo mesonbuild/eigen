@@ -1,0 +1,6 @@
+[wrap-file]
+directory = eigen-3.3.8
+
+source_url = https://gitlab.com/libeigen/eigen/-/archive/3.3.8/eigen-3.3.8.tar.bz2
+source_filename = eigen-3.3.8.tar.bz2
+source_hash = 0215c6593c4ee9f1f7f28238c4e8995584ebf3b556e9dbf933d84feb98d5b9ef
