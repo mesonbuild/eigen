@@ -491,6 +491,3 @@ eigen_dep = declare_dependency(
     include_directories : include_directories('.'),
 )
 
-[provide]
-eigen3 = eigen_dep
-
